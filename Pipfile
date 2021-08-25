@@ -8,14 +8,14 @@ pylint = "*"
 autopep8 = "*"
 
 [packages]
-flask = "==1.1.1"
-marshmallow = "==3.2.1"
-flask-cors = "==3.0.9"
-python-jose = "==3.0.1"
-flask-socketio = "==4.2.1"
+flask = "==2.0.1"
+marshmallow = "==3.13.0"
+flask-cors = "==3.0.10"
+python-jose = "==3.3.0"
+flask-socketio = "==5.1.1"
 flask-redis = "==0.4.0"
-gunicorn = "==19.9.0"
-eventlet = "==0.31.0"
+gunicorn = "==20.1.0"
+eventlet = "==0.31.1"
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
